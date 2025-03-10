@@ -1,0 +1,39 @@
+Тест 1:
+PythonHW\hw_1> uv run .\cli_1_1.py .\test_files\cli_1_1_1.txt
+1 1
+2 
+3 2
+4
+5 4
+
+Тест 2:
+PythonHW\hw_1> uv run .\cli_1_1.py .\test_files\cli_1_1_2.txt
+1 
+2 
+3
+4
+
+Тест 3:
+PythonHW\hw_1> uv run .\cli_1_1.py .\test_files\cli_1_1_3.txt
+1 
+2 
+3
+4 eofmcvrmvm  wrcp    okomom          okmmmo
+5
+6 xewm    okomom
+7
+8         o,package
+9
+
+Тест 4:
+PythonHW\hw_1> uv run .\cli_1_1.py
+
+1 
+
+2 
+123
+3 123
+ыфвыф
+4 ыфвыф
+
+5 

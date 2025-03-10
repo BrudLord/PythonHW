@@ -1,0 +1,18 @@
+Тест 1:
+PythonHW\hw_1> uv run .\cli_1_3.py .\test_files\cli_1_1_1.txt .\test_files\cli_1_1_1.txt 
+5 3 11 .\test_files\cli_1_1_1.txt
+5 3 11 .\test_files\cli_1_1_1.txt
+10 6 22 total
+
+Тест 2:
+PythonHW\hw_1> uv run .\cli_1_3.py .\test_files\cli_1_1_1.txt .\test_files\cli_1_1_2.txt .\test_files\cli_1_1_3.txt
+5 3 11 .\test_files\cli_1_1_1.txt
+4 0 8 .\test_files\cli_1_1_2.txt
+9 7 97 .\test_files\cli_1_1_3.txt
+18 10 116 total
+
+Тест 3:
+1 2 3 4
+5
+6^D
+3 6 12
