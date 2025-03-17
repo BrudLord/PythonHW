@@ -1,0 +1,1 @@
+[Ссылка на библиотеку](https://pypi.org/project/tex-table-and-img/0.0/)
