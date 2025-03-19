@@ -31,10 +31,12 @@ def generate_pdf(pathTex: str, pathPdf:str):
 
 
 if __name__ == "__main__":
-    pathTex = "../artifacts/test_tex_2_2_1.tex"
-    pathPdf = "../artifacts/test_tex_2_2_2.pdf"
+    print("RUN!")
+    pathTex = "artifacts/test_tex_2_2_1.tex"
+    pathPdf = "artifacts/test_tex_2_2_2.pdf"
     table = [[1, 2, 3], ['4', '5', '6'], ['one', 'two', None]]
     img = "../res/cat.png"
     generate_latex_file(pathTex, table=table, img=img)
     generate_pdf(pathTex, pathPdf)
+    print("END!")
 
