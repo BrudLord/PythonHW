@@ -1,5 +1,6 @@
 import numpy as np
 
+
 class Matrix:
     def __init__(self, matrix):
         self.matrix = matrix
@@ -45,27 +46,20 @@ class Matrix:
     def __str__(self):
         return '\n'.join([' '.join(map(str, h)) for h in self.matrix])
 
+def write_res(file: str, A: Matrix, B: Matrix, oper: str, res: Matrix):
+    with open(file, "w") as f:
+        f.write(str(A))
+        f.write(f"\n{oper}\n")
+        f.write(str(B))
+        f.write("\n=\n")
+        f.write(str(res))
+
 
 if __name__ == "__main__":
     np.random.seed(0)
-    A = Matrix(np.random.randint(0, 10, (10, 10)))
-    B = Matrix(np.random.randint(0, 10, (10, 10)))
+    X = Matrix(np.random.randint(0, 10, (10, 10)))
+    Z = Matrix(np.random.randint(0, 10, (10, 10)))
+    write_res("./task1/matrix+.txt", X, Z, "+", X + Z)
+    write_res("./task1/matrix_mul.txt", X, Z, "*", X * Z)
+    write_res("./task1/matrix@.txt", X, Z, "@", X @ Z)
 
-    with open("matrix+.txt", "w") as f:
-        f.write(str(A))
-        f.write("\n+\n")
-        f.write(str(B))
-        f.write("\n=\n")
-        f.write(str(A + B))
-    with open("matrix_mul.txt", "w") as f:
-        f.write(str(A))
-        f.write("\n*\n")
-        f.write(str(B))
-        f.write("\n=\n")
-        f.write(str(A * B))
-    with open("matrix@.txt", "w") as f:
-        f.write(str(A))
-        f.write("\n@\n")
-        f.write(str(B))
-        f.write("\n=\n")
-        f.write(str(A @ B))

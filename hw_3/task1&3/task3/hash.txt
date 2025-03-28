@@ -1,0 +1,2 @@
+hash(A@B)=0
+hash(C@D)=0
