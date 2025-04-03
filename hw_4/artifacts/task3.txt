@@ -1,0 +1,14 @@
+Hello
+You send msg ("Hello") at 1743692260.4693577
+Process B has text (with rot13): uryyb at 1743692260.475705
+How are you?
+You send msg ("How are you?") at 1743692267.9453704
+Process B has text (with rot13): ubj ner lbh? at 1743692267.9463696
+I'm Ok, and you?
+You send msg ("I'm Ok, and you?") at 1743692276.4068124
+Process B has text (with rot13): v'z bx, naq lbh? at 1743692276.4068124
+I'm fine, let's do "aslcjnskodnmvlksm;dc,;s,ad;lckesdio;a"!!
+You send msg ("I'm fine, let's do "aslcjnskodnmvlksm;dc,;s,ad;lckesdio;a"!!") at 1743692290.0616581
+Process B has text (with rot13): v'z svar, yrg'f qb "nfypwafxbqaziyxfz;qp,;f,nq;ypxrfqvb;n"!! at 1743692290.0616581
+exit
+You send msg ("exit") at 1743692295.3794096
